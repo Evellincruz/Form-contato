@@ -1,10 +1,10 @@
-# Formulário de contatos
+# Formulário de contatos 
 
 
 ## Códigos 🚀
 
 
-### Elementos
+### Elementos 🪐
 
 
 #### &lt;form&gt;
@@ -39,17 +39,18 @@ O elemento HTML é um elemento interativo ativado por um usuário com mouse, tec
 
  Os elementos h1 to HTML representam seis níveis de títulos de seção. é o nível de seção mais alto e é o mais baixo. 
 
-### Atributos
+### Atributos 🧭
 
  
 
 #### * Methood *
 
- 
+O método HTTP para enviar o formulário. Os únicos métodos/valores permitidos são (sem distinção entre maiúsculas e minúsculas)
 
 #### * For *
 
- 
+ A for instrução cria um loop que consiste em três expressões opcionais, colocadas entre parênteses e separadas por ponto e vírgula, seguidas por uma instrução (geralmente uma instrução em bloco ) a ser executada no loop
 
 #### * Type *
 
+ A typepropriedade de um Blobobjeto retorna o tipo MIME do arquivo.
