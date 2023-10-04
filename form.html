@@ -1,16 +1,42 @@
-<form method='post' action=''>
-    <p>
-    <label for='email'>E-mail:</label>
-    <input type='email' id='email' name='email'>
-    <span>por exemplo, seunome@dominio.com</span>
-</p>
-<p>
-    <label for='subject'>Assunto</label> 
-    <input type='text' id='subject'>
-</p>
-<p>
-    <label for='content'>Mensagem</label> 
-    <textarea id='content'></textarea>
-</p>
-    <button>Enviar</button>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário de Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='form.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <form method='post' action=''>
+        <h1>Entre em Contato</h1>
+        <div id="form">
+            <p>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nomeid" placeholder="Evellin Cruz " required="required" name="nome" />
+            </p>
+            <p>
+                <label for='email'>E-mail:</label><br>
+                <input type='email' id='email' placeholder= "seunome@dominio.com" name='email'>
+            </p>
+            <p>
+                <label for="tel">Telefone:</label> <br>
+                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="tel" /> 
+            </p>
+            <p>
+                <label for='subject'>Assunto:</label><br>
+                <input type='text' id='subject' placeholder="Digite o assunto desejado">
+            </p>
+            <p>
+                <label for='content'>Mensagem:</label><br>
+                <textarea placeholder="Deixe sua opnião"></textarea>
+            </p>
+            <button>Enviar</button>
+        </div>
     </form>
+</body>
+
+</html>

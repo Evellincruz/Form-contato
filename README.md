@@ -103,5 +103,5 @@ o type é usado para especificar o tipo de conteúdo que essa tag link está imp
 
 ## Imagem do Projeto
 
-![imagem do projeto](Imagem-gif/gravacao.gif)
+![imagem do projeto](Imagem-gif/Gravando%20.mp4)
 

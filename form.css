@@ -1,25 +1,53 @@
-table, td, th{
-    border: solid 1px rgb(116, 223, 196)
+form{
+    text-align: center;
 }
-td{
+label{
 width: 150px;
 font-size: 20px;
 }
-th{
-    font-size: 25px;
-    background-color: rgb(153, 223, 198);
+#form{
+border: solid 10px rgb(193, 175, 235);
+ margin-left: auto;
+margin-right: auto;
+width: 50%;
+    
 }
-tr:hover {background-color: rgb(177, 231, 235);}
-th{
-    background-color: rgb(167, 224, 210);
-    color: rgb(255, 254, 254);
+p{
+    color: rgb(247, 242, 242);
+   font-size: 25px;
+   text-align: center;
+}
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background: linear-gradient(-45deg,#42216d,#000270,#755d91);
+
+
+}
+button{
+background-color: rgb(143, 105, 185);
+text-align: center;
+width: 120px;
+height: 40px;
+border: none;
+border-radius: 10px;
 }
 h1{
-    text-align: center;
+  border: 30px;  
+  color: rgb(240, 240, 232);
+  font-weight: 300;
 }
-#container{
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+input, textarea{
+    width: 450px;
 }
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: 2px #000270 solid;
+    padding:5px;
+}
+textarea{
+    height: 120px;
+    border-radius: 5px;
+}
+
